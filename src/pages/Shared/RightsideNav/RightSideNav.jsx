@@ -6,21 +6,16 @@ import qzone3 from "../../../assets/qZone3.png"
 
 const RightSideNav = () => {
   return (
-    <div>
+    <div className="text-black">
       <div className="p-4">
-      <div >
-        <h2 className="text-3xl">Login With</h2>
-      </div>
-      <div className="p-4 space-y-3">
-        <button className="btn btn-outline w-full">
-          <FcGoogle className="h-5 w-5"></FcGoogle>
-         Login with Google
-        </button>
-        <button className="btn btn-outline w-full">
-          <FaGithub className="h-5 w-5"></FaGithub>
-          Login with Github
-        </button>
-      </div>
+      <h2 className="text-3xl mb-4">Login With</h2>
+        <button className="p-4 flex text-lg border rounded-t-lg items-center" href="">
+            <FcGoogle className="mr-2"></FcGoogle>
+            Login with google</button>
+        <button className="p-4 flex text-lg border-x items-center" href="">
+            <FaGithub className="mr-3"></FaGithub>
+            Login with github</button>
+        
       </div>
       <div className=" p-4 mb-6  ">
         <h2 className="text-3xl mb-4">Find us on</h2>

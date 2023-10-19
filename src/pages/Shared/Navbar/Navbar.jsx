@@ -7,7 +7,7 @@ const Navbar = () => {
     <li><NavLink to="/Career">Career</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,7 +29,7 @@ const Navbar = () => {
           <img src={userPng} />
         </div>
       </label>
-    <Link><button className="btn">Login</button></Link>
+    <Link><button className="px-4 text-white font-bold py-1 bg-[#403F3F]">Login</button></Link>
   </div>
 </div>
     );

@@ -7,7 +7,7 @@ import BreakingNews from "./BreakingNews";
 
 const Home = () => {
     return (
-        <div>
+        <div className="bg-white p-20">
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
