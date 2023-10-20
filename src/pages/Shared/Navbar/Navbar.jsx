@@ -5,6 +5,7 @@ const Navbar = () => {
     <li><NavLink to="/">Home</NavLink></li>
     <li><NavLink to="/about">About</NavLink></li>
     <li><NavLink to="/Career">Career</NavLink></li>
+    <li><NavLink to="/login">Login</NavLink></li>
     </>
     return (
         <div className="navbar ">
@@ -29,7 +30,7 @@ const Navbar = () => {
           <img src={userPng} />
         </div>
       </label>
-    <Link><button className="px-4 text-white font-bold py-1 bg-[#403F3F]">Login</button></Link>
+    <Link to="/login"><button className="px-4 text-white font-bold py-1 bg-[#403F3F]">Login</button></Link>
   </div>
 </div>
     );
